@@ -1,0 +1,17 @@
+{
+  "name": "sealant",
+  "version": "1.0.0",
+  "description": "An electronic sealant for better browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "blow"
+  },
+  "keywords": [
+    "browser",
+    "privacy",
+    "performance",
+    "airtight"
+  ],
+  "author": "Alexar Pendashteh <github@alexar.me>",
+  "license": "ISC"
+}
