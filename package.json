@@ -4,7 +4,8 @@
   "description": "An electronic sealant for better browsers.",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron . | xargs -I{} ./sealant.sh {}",
+    "watch": "nodemon -e js -x 'npm run start'",
     "test": "blow"
   },
   "keywords": [
@@ -16,6 +17,7 @@
   "author": "Alexar Pendashteh <github@alexar.me>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^8.2.5"
+    "electron": "^8.2.5",
+    "nodemon": "^2.0.3"
   }
 }
