@@ -4,7 +4,7 @@
   "description": "An electronic sealant for better browsers.",
   "main": "index.js",
   "scripts": {
-    "start": "electron . | xargs -I{} ./sealant.sh {}",
+    "start": "electron .",
     "watch": "nodemon -e js -x 'npm run start'",
     "test": "blow"
   },
