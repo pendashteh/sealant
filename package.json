@@ -4,6 +4,7 @@
   "description": "An electronic sealant for better browsers.",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "blow"
   },
   "keywords": [
