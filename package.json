@@ -14,5 +14,8 @@
     "airtight"
   ],
   "author": "Alexar Pendashteh <github@alexar.me>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.5"
+  }
 }
