@@ -5,8 +5,15 @@ a browser that is "tight".
 ```
 $ sealant https://www.reuters.com/
 ```
-Opens https://www.reuters.com/ on a light & simple browser window.
+Opens https://www.reuters.com/ without any ad on a simple and light browser window.
+The browser window is limited to "*reuters.com" hence all ads and extras are blocked by default.
 
-You can now press `ctrl+Z` in command line to freeze the page you are looking at.
+```
+$ sealant https://www.reuters.com/ --open
+```
+Opens https://www.reuters.com/ and allows for external domains to be loaded. (including ads)
+
+
+You can always press `ctrl+Z` in command line to freeze the browser window.
+
 Type `fg` in command line to bring the sealant window back to life.
-
