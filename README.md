@@ -1,7 +1,7 @@
 # sealant
 a browser that is "tight".
 
-# Usage
+## Usage
 ```
 $ sealant https://www.reuters.com/
 ```
@@ -17,3 +17,7 @@ Opens https://www.reuters.com/ and allows for external domains to be loaded. (in
 You can always press `ctrl+Z` in command line to freeze the browser window.
 
 Type `fg` in command line to bring the sealant window back to life.
+
+## Implementation
+
+This browser is built on [Electron JS](https://www.electronjs.org/) and its tightness is limited to `electron`'s `BrowserWindow.loadURL`.
